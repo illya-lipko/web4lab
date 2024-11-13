@@ -1,0 +1,95 @@
+body{
+    background-color:#A3865C;
+    font-family: 'Montserrat', sans-serif;
+}
+.head{
+    margin: 10px;
+    position: relative;
+    text-align:center;
+    color: #3f6f5b;
+    font-size: 45px;
+}
+.menu{
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #a27d49e6;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.menu-item{
+    padding: 10px;
+    margin: 5px;
+    background-color: #A3865C;
+    cursor: pointer;
+}
+.menu-item:hover{
+    background-color: #865CA3;
+    color: #ffffff;
+}
+.our-menu{
+    position: relative;
+    text-align: center;
+    color:#865CA3;
+    font-size: 35px;
+}
+.drink-menu{
+    display: flex;
+}
+.table{
+    flex-grow: 1;
+    font-size: 20px;
+    color: rgb(7, 5, 36);
+}
+th{
+    padding: 40px;
+}
+.drink{
+    text-align: center;
+    margin: auto;
+}
+.drinkimg{
+    width: 150px;
+    height: 100px;
+}
+.drink-list{
+    flex-grow: 1;
+}
+.title-gurnish{
+    color: #865CA3;
+    font-size: 25px;
+}
+.garnishimg{
+    width: 250px;
+    height: 200px;
+    margin: 25px;
+}
+.garnish-list{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    color: rgb(7, 5, 36);
+}
+.garnish-item{
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+}
+footer{
+    background-color:#865CA3;
+    padding: 30px;
+}
+.promo{
+    margin: 30px;
+    font-size: 25px;
+    color: #A3865C;
+    position: relative;
+    text-align: center;
+}
